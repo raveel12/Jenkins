@@ -105,7 +105,7 @@ pipeline {
         stage('Deploy To Production') {
             steps {
                 echo "Deploy the application to AWS EC2 instance"
-                echo "Deployed"
+                echo "Deployed and ready"
                 
             }
         }  
